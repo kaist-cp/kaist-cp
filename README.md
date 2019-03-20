@@ -1,2 +1,1 @@
-TODO
-TODO
+# KAIST Concurrency and Parallelism Laboratory
