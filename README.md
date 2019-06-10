@@ -47,6 +47,8 @@ receiver is requested to reply promptly.
 When you first come to the lab, please do the following instructions:
 
 - Create {firstname}.{lastname}@kaist.ac.kr email account.
+    + You can add "additional account" in mail.kaist.ac.kr > Settings > My Account > Additional account.
+    + If it is already taken, add a number at the end of the id, e.g. {firstname}.{lastname}07@kaist.ac.kr
 - Send your email address and GitHub ID to jeehoon.kang@kaist.ac.kr.
 - Your GitHub ID will be invited to `kaist-cp` organization.
 - You'll get {firstname}.{lastname}@cp.kaist.ac.kr G Suite account.
