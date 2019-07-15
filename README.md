@@ -90,6 +90,19 @@ When you first come to the lab, please do the following instructions:
 ## First things to do
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
+  1. Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
+  2. Install dependent libraries and run a local server to test by following commands:
+
+        ```bash
+        # Make sure Ruby is installed.
+        $ bundle install
+        $ bundle exec jekyll serve
+        ```
+
+  3. Add your meta information(name, status, github ID, etc.) to `people.yml`.
+  4. Make a new file `{firstname}.{lastname}.md` under the directory `_people/`.
+  5. Write your concrete information on the `{firstname}.{lastname}.md`. I recommend you refer to `_people/jeehoon.kang.md`.
+  6. Make a commit, push it and PR.
 - Make sure you know how to use Git. FYI, [this tutorial](https://www.atlassian.com/git/tutorials) is a good introduction.
 - Study the following programming languages depending on your research interest:
   + [Rust](https://www.rust-lang.org/), or
