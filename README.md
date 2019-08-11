@@ -44,8 +44,9 @@ When you first come to the lab, please do the following instructions:
 ### Email
 
 - Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails.
-- If you want, forward all {firstname}.{lastname}@kaist.ac.kr emails to
-  {firstname}.{lastname}@cp.kaist.ac.kr and check emails in [Gmail](https://www.gmail.com).
+- Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
+  check emails in [Gmail](https://www.gmail.com).
+- Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.
 - Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email).
 - Try to reply within 12 hours.
 
