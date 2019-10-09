@@ -88,6 +88,17 @@ When you first come to the lab, please do the following instructions:
 
 
 
+
+## Devices
+
+**IMPORTANT: no password should be written here. It's a public repository.**
+
+- Wifi: `kaist-cp` at Rm. 4441, Bldg. E3-1, KAIST
+- Printer: `192.168.0.10` in the WiFi network; AirPrint protocol
+
+
+
+
 ## First things to do
 
 - Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
