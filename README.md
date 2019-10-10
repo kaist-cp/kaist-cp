@@ -94,3 +94,9 @@ Study the following programming languages depending on your research interest:
 
 - [Rust](https://www.rust-lang.org/), or
 - [Coq](https://coq.inria.fr/) (by reading [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volume 1).
+
+Read how to read papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/):
+
+- [How to write papers so people can read them](https://people.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf), PLMW@POPL 2016
+- [How to give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw18popl.pdf), PLMW@POPL 2018
+- [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw17icfp.pdf), PLMW@ICFP 2017
