@@ -21,24 +21,10 @@ a consequence, a researcher will suffer from:
   research.
 
 
-## How to prepare for a meeting?
-
-- Before asking for a meeting, write down a short meeting agenda and share it.
-
-- In the agenda, clearly state the purpose of meetings.  It can be, but not limited to: (1)
-  reporting the progress, (2) asking questions/opinions, or (3) just chatting.
-
-- Try to be direct, top-to-bottom, and conclusion-first.
-    + e.g. not "A, so B, so C", but "C, because B, because A"
-
-- If you have multiple things to discuss, enumerate them at the beginning of a meeting for better
-  planning of the meetings.
-
-
 ## Communication
 
-All communication (except for Mattermost chat in work hours) is **asynchronous**: the receiver is
-not required to reply promptly. Mattermost chat in work hours is supposed to be synchronous: the
+All communication (except for Mattermost and face-to-face meeting) is **asynchronous**: the receiver
+is not required to reply promptly. Mattermost chat in work hours is supposed to be synchronous: the
 receiver is requested to reply promptly.
 
 
@@ -58,8 +44,9 @@ When you first come to the lab, please do the following instructions:
 ### Email
 
 - Use {firstname}.{lastname}@kaist.ac.kr email account for all work emails.
-- If you want, forward all {firstname}.{lastname}@kaist.ac.kr emails to
-  {firstname}.{lastname}@cp.kaist.ac.kr and check emails in [Gmail](https://www.gmail.com).
+- Forward all {firstname}.{lastname}@kaist.ac.kr emails to {firstname}.{lastname}@cp.kaist.ac.kr and
+  check emails in [Gmail](https://www.gmail.com).
+- Configure the Gmail account to send from {firstname}.{lastname}@kaist.ac.kr.
 - Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email).
 - Try to reply within 12 hours.
 
@@ -73,7 +60,7 @@ When you first come to the lab, please do the following instructions:
 
 ### GitHub
 
-- All work should be done in `kaist-cp` organization.
+- All work should be done in the [`kaist-cp` organization](https://github.com/kaist-cp).
 - If you want to create a new repository, ask Jeehoon.
 - Get email notification for mentions and issue/PR comments.
 
@@ -81,22 +68,58 @@ When you first come to the lab, please do the following instructions:
 ### Mattermost
 
 - Instant messaging service at https://cp.kaist.ac.kr/mm.
-- Try to reply in work hours. (No need to reply in other times.)
-- At the beginning of each work day, state what you'll do that day at [this
-  channel](https://cp.kaist.ac.kr/mm/cp/channels/one-line-a-day). It can be very short.
+- Try to reply promptly in work hours. (No need to reply in other times.)
+- At the beginning of each work day, briefly state what you'll do that day at [this
+  channel](https://cp.kaist.ac.kr/mm/cp/channels/one-line-a-day).
+
+
+### Face-to-face meeting
+
+- Before asking for a meeting, write down a short meeting agenda and share it.
+
+- In the agenda, clearly state the purpose of meeting.  It can be, but not limited to: (1) reporting
+  the progress, (2) asking questions/opinions, or (3) just chatting.
+
+- Try to be direct, top-to-bottom, and conclusion-first (e.g. not "A, so B, so C", but "C, because
+  B, because A").
+
+- If you have multiple things to discuss, enumerate them at the beginning of a meeting for better
+  planning of the meetings.
+
+
+
+
+## Devices
+
+**IMPORTANT: no password should be written here. It's a public repository.**
+
+- Wifi: `kaist-cp` at Rm. 4441, Bldg. E3-1, KAIST
+- Printer: `192.168.0.10` in the WiFi network; AirPrint protocol
+
+
 
 
 ## First things to do
 
-You should know how to use Git. If not, study [this tutorial](https://try.github.io/).
+- Create your website at https://cp.kaist.ac.kr/{firstname}.{lastname}.
+  1. Fork [our website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
+  2. Install dependent libraries and run a local server to test by following commands:
 
-Study the following programming languages depending on your research interest:
+        ```bash
+        # Make sure Ruby is installed.
+        $ bundle install
+        $ bundle exec jekyll serve
+        ```
 
-- [Rust](https://www.rust-lang.org/), or
-- [Coq](https://coq.inria.fr/) (by reading [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volume 1).
-
-Read how to read papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/):
-
-- [How to write papers so people can read them](https://people.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf), PLMW@POPL 2016
-- [How to give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw18popl.pdf), PLMW@POPL 2018
-- [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw17icfp.pdf), PLMW@ICFP 2017
+  3. Add your meta information(name, status, github ID, etc.) to `people.yml`.
+  4. Make a new file `{firstname}.{lastname}.md` under the directory `_people/`.
+  5. Write your concrete information on the `{firstname}.{lastname}.md`. I recommend you refer to `_people/jeehoon.kang.md`.
+  6. Make a commit, push it and PR.
+- Make sure you know how to use Git. FYI, [this tutorial](https://www.atlassian.com/git/tutorials) is a good introduction.
+- Study the following programming languages depending on your research interest:
+  + [Rust](https://www.rust-lang.org/), or
+  + [Coq](https://coq.inria.fr/) (by reading [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volume 1).
+- Read how to read papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/):
+  + [How to write papers so people can read them](https://people.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf), PLMW@POPL 2016
+  + [How to give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw18popl.pdf), PLMW@POPL 2018
+  + [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw17icfp.pdf), PLMW@ICFP 2017
