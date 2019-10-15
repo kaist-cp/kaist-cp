@@ -94,8 +94,7 @@ When you first come to the lab, please do the following instructions:
 **IMPORTANT: no password should be written here. It's a public repository.**
 
 - Wifi: `kaist-cp` at Rm. 4441, Bldg. E3-1, KAIST
-- Printer: `192.168.0.10` in the WiFi network; AirPrint protocol
-
+- Printer: `HP Color LaserJet Pro MFP M479fdw`; `192.168.0.10` in the WiFi network; AirPrint protocol
 
 
 
